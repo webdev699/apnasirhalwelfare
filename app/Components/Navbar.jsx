@@ -185,7 +185,7 @@ const Navbar = () => {
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><button className="donate-btn">Donate Now</button></li>
+                <li><button className="donate-btn"><a href="/login">Login</a></button></li>
               </>
             ) : (
               <>
@@ -239,7 +239,7 @@ const Navbar = () => {
             <a onClick={() => setMobileMenuOpen(false)} href="#home">Home</a>
             <a onClick={() => setMobileMenuOpen(false)} href="#about">About</a>
             <a onClick={() => setMobileMenuOpen(false)} href="#projects">Projects</a>
-            <button className="mobile-logout-btn donate-btn">Donate Now</button>
+            <button className="mobile-logout-btn donate-btn"><a href="/login">Login</a></button>
           </>
         ) : (
           <>
