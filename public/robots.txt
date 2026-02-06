@@ -1,0 +1,12 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /add-expenses
+Disallow: /add-funds
+
+# Host
+Host: https://apnasirhalwelfare.vercel.app/
+
+# Sitemaps
+Sitemap: https://apnasirhalwelfare.vercel.app/sitemap.xml

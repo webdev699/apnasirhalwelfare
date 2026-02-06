@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Apna Sirhal Welfare",
   description: "A platform dedicated to the welfare of the Apna Sirhal community, providing resources, support, and a space for connection and growth.",
+verification: {
+    google: 'x8cunJSnLAMTHdN6TOORF4Qtey2mR-FaCws3q8tqAMU',
+  },
 };
 
 export default function RootLayout({
